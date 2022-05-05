@@ -27,7 +27,7 @@ void calculate()
 	int a, b;
 	cout<<"Enter 2 elements: ";
 	cin>>a>>b;
-	cout<<"Sum = "<<a+b;
+	cout<<"Sum = "<<a+b<<endl<<endl;
 }
 
 int main() 
@@ -67,7 +67,7 @@ int main()
 
 					if (un == username && pw == password)
 					{
-						cout<<"Logged In"<<endl<<endl;
+						cout<<endl<<"Logged In"<<endl<<endl;
 						calculate();
 					}
 					else
